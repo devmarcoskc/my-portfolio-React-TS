@@ -229,7 +229,11 @@ export const SocialsArea = styled.div`
     }
 
     @media(max-width: 768px) {
-        margin-top: 30px;
+        margin-top: 15px;
+
+        h1 {
+            font-size: 35px;
+        }
     }
 
     @media(max-width: 380px) {
@@ -262,12 +266,14 @@ export const IconsDiv = styled.div`
 
     @media(max-width: 768px) {
         gap: 45px;
+        height: 35px;
+        width: 35px;
     }
 
     @media(max-width: 380px) {
         svg {
-            height: 40px;
-            width: 40px;
+            height: 35px;
+            width: 35px;
         }
     }
 `;
