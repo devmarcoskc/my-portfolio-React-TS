@@ -38,7 +38,7 @@ const Header = ({selectedPage, setSelectedPage}: Props) => {
                 setSelectedPage={setSelectedPage}
             />
             <Link
-                page="Contato"
+                page="Contatos"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
             />
@@ -92,7 +92,7 @@ const Header = ({selectedPage, setSelectedPage}: Props) => {
                     setSelectedPage={setSelectedPage}
                 />
                 <Link
-                    page="Contato"
+                    page="Contatos"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />

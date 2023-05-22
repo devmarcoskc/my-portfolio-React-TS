@@ -3,5 +3,5 @@ export enum SelectedPage {
     MeConheça = "meconheça",
     CarreiraEFuturo = "carreiraefuturo",
     Projetos = "projetos",
-    Contato = "contato"
+    Contato = "contatos"
   }

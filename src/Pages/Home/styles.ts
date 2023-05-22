@@ -110,6 +110,10 @@ export const RightSideSlogan = styled.div`
         align-items: center;
         justify-content: center;
 
+        .squares-area, .squares-area-2 {
+            z-index: 1;
+        }
+
         .squares-area {
             top: 5%;
             left: 5%;
@@ -195,6 +199,7 @@ export const ImgBoxBorder = styled.div`
         height: 240px;
         top: 27%;
         left: 27%;
+        z-index: 15;
     }
 
     @media(max-width: 380px) {

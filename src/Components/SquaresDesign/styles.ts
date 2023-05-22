@@ -22,4 +22,8 @@ export const SquaresArea = styled.div<Props>`
             gap: 5px;
         }
     }
+
+    @media(max-width: 370px) {
+        font-size: 4px;
+    }
 `

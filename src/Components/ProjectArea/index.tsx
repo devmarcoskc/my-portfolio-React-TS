@@ -36,7 +36,6 @@ const ProjectArea = ({
   const animation = useAnimation();
 
   useEffect(() => {
-    console.log('use effect hook, inView', inView);
     if(inView) {
       animation.start({
         y: 0, opacity: 1,
