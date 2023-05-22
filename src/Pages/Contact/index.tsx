@@ -26,10 +26,10 @@ const ContactMe = ({setSelectedPage}: Props) => {
 
   return (
     <C.Section
-        id='contato'
+        id='contatos'
     >
         <C.Container>
-            <C.H1 onViewportEnter={() => setSelectedPage(SelectedPage.Contato)}>Contate-me</C.H1>
+            <C.H1 onViewportEnter={() => setSelectedPage(SelectedPage.Contatos)}>Contate-me</C.H1>
             <C.H2>
                 Tire suas dúvidas ou me mande uma mensagem!
             </C.H2>

@@ -89,6 +89,14 @@ export const RightSideDesign = styled.div`
             bottom: 25%;
         }
     }
+
+    @media(max-width: 325px) {
+        .circlesDesign {
+            position: absolute;
+            left: 17%;
+            top: 10%
+        }
+    }
     
 `;
 
