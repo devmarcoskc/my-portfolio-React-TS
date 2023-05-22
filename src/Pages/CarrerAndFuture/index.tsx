@@ -44,8 +44,8 @@ function CarrerAndFuture({setSelectedPage}: Props) {
                 Como vim da engenharia, tenho experiência em fazer
                 projetos com grandes equipes. Há mais de um ano venho estudando
                 e aumentando meu conhecimento sobre desenvolvimento web, principalmente frontend. Ao longo do
-                tempo já fiz projeto como freelancer e sei lidar com as necessidades do 
-                cliente. Como decidi me tornar um desenvolvedor web, faço tudo ao meu
+                tempo já fiz projeto como freelancer, sei escutar e lidar com as necessidades do 
+                cliente para o desenvolvimento do seu produto. Como decidi me tornar um desenvolvedor web, faço tudo ao meu
                 alcance para me tornar cada vez melhor. No futuro, pretendo me tornar fullstack. Então, vou sempre buscar desafios
                 e tentar melhorar minhas habilidades para que no meu futuro eu possa me tonar o 
                 melhor possível, como desenvolvedor e pessoa.

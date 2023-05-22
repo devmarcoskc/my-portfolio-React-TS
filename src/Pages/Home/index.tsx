@@ -25,8 +25,8 @@ const Home = ({setSelectedPage}: Props) => {
               </motion.h1>
               <h1>Frontend.</h1>
               <p>
-                Gosto de desenvolver interfaces bonitas com 
-                excelente experiência para o usuário.
+                Apaixonado pelo mundo da tecnologia e desenvolvimento
+                web.
               </p>
             </C.TitleArea>
             <C.BasicDescriptionsArea>
