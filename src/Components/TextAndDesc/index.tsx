@@ -1,5 +1,4 @@
 import * as C from './styles';
-import { motion } from "framer-motion";
 
 type Props = {
     title: string;

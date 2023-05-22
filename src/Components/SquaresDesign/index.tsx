@@ -1,10 +1,6 @@
 import * as C from './styles';
 
-type Props = {
-  
-}
-
-const SquaresDesign = ({}: Props) => {
+const SquaresDesign = () => {
   return (
     <C.SquaresArea>
         <div className='dots-line'>

@@ -1,5 +1,5 @@
 import * as C from './styles';
-import FuturDesign from '../../assets/FutureAstroDesign.png';
+import FutureDesign from '../../assets/FutureAstroDesign.png';
 import { SelectedPage } from '../../Types/Types';
 
 type Props = {
@@ -53,7 +53,7 @@ function CarrerAndFuture({setSelectedPage}: Props) {
             </C.LeftSideText>
 
             <C.RightSideDesign>
-                <img src={FuturDesign}/>
+                <img src={FutureDesign}/>
             </C.RightSideDesign>
         </C.Container>
 
