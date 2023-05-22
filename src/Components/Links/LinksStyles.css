@@ -1,0 +1,39 @@
+.nav-links, .nav-links-active {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: all ease .8s;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links:hover, .nav-links-active:hover {
+    color: white;
+} 
+
+.nav-links {
+    color:#ccf381;
+}
+
+.nav-links-active {
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .nav-links, .nav-links-active {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .nav-links, .nav-links-active:hover {
+        color: #3d155f;
+    }
+    
+    .nav-links {
+       color: #4831d4;
+    }
+
+    .nav-links-active {
+        color: #3d155f;
+        font-weight: bold;
+    }
+}
