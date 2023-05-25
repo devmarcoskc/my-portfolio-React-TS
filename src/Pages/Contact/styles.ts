@@ -50,7 +50,7 @@ export const H2 = styled.h2`
     }
 
     @media(max-width: 380px) {
-        font-size: 17px;
+        font-size: 16px;
     }
 `;
 
@@ -67,7 +67,7 @@ export const Span = styled.span`
 
     @media(max-width: 380px) {
         margin-top: 0px;
-        font-size: 17px;
+        font-size: 16px;
     }
 
 `
@@ -188,7 +188,8 @@ export const form = styled.form`
         margin-top: 10px;
 
         label {
-            margin-top: 15px;
+            margin-top: 10px;
+            font-size: 18px;
         }
 
         .div-flex-column {
@@ -203,6 +204,12 @@ export const form = styled.form`
             height: 90px;
             font-size: 15px;
         }
+
+        button {
+            height: 35px;
+            width:100px;
+            font-size:17px;
+        }
     }
 `;
 
@@ -212,7 +219,7 @@ export const Perrors = styled.p`
     font-weight: bold;
 
     @media(max-width: 380px) {
-        font-size: 14px;
+        font-size: 13px;
     }
 `
 
