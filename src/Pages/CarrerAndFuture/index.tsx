@@ -41,9 +41,10 @@ function CarrerAndFuture({setSelectedPage}: Props) {
                 Carreira e Futuro,
             </C.H1>
             <C.Article>
-                Como vim da engenharia, tenho experiência em fazer
-                projetos com grandes equipes. Há mais de um ano venho estudando
-                e aumentando meu conhecimento sobre desenvolvimento web, principalmente frontend. Ao longo do
+                Como vim da engenharia ambiental, acredito que o desenvolvimento web
+                pode possuir um poder enorme de mudar nossa comunidade, como no questão ambientais. 
+                Há mais de um ano venho estudando e aumentando meu conhecimento sobre desenvolvimento 
+                web, principalmente frontend. Ao longo do
                 tempo já fiz projeto como freelancer, sei escutar e lidar com as necessidades do 
                 cliente para o desenvolvimento do seu produto. Como decidi me tornar um desenvolvedor web, faço tudo ao meu
                 alcance para me tornar cada vez melhor. No futuro, pretendo me tornar fullstack. Então, vou sempre buscar desafios

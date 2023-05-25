@@ -17,7 +17,7 @@ export const FirstContainer = styled.div`
     height: auto;
     width: 100%;
     display: flex;
-    margin-top: 100px;
+    margin-top: 60px;
 
     @media(max-width: 768px) {
         margin-top: 70px;
@@ -104,7 +104,7 @@ export const SecondContainer = styled.div`
     height: auto;
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin-top: 40px;
 
     @media(max-width: 768px) {
         flex-direction: column;

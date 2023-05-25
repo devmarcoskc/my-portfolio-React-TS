@@ -164,9 +164,9 @@ const Projects = ({setSelectedPage}: Props) => {
                 da poluição atmosférica de sua localidade em tempo real. Para
                 conseguir os dados da poluição foi utilizada uma API americana. 
                 Com os dados em mãos montei uma tabela mostrando os resultados e 
-                comparando eles com os resultados aceitos. O Site também conta
-                com uma lista de informações que cada indivíduo pode fazer para ajudar
-                ao combate da poluição atmosférica. 
+                comparando eles com os resultados aceitos. O projeto foi mostrado para
+                professores da Engenharia Ambiental na UFPEL e para a comunidade
+                em questão. Ele serviu como base para elaborar políticas de incentivo ambiental. 
                 '
                 descTecnology='
                 Para este projeto foi utilizado: HTML5, CSS3, React.JS, Typescript, Styled-components, react-hook-form
