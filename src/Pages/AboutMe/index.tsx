@@ -71,7 +71,7 @@ function AboutMe({setSelectedPage}: Props) {
         </C.RightSideDesign>
       </C.FirstContainer>
 
-        <C.SecondContainer>
+      <C.SecondContainer>
           <C.LeftSideDesign>
             <div className='circlesDesignArea'>
               <img src={UnionCircles} alt='circles design'/>
@@ -125,8 +125,8 @@ function AboutMe({setSelectedPage}: Props) {
             </C.StackIconArea>
           </C.RightSideArea>
 
-        </C.SecondContainer>
-        </main>
+      </C.SecondContainer>
+      </main>
     </C.Section>
   )
 }

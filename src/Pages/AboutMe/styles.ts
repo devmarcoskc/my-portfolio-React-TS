@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Section = styled.section`
-    height: 110vh;
+    min-height: 110vh;
     max-width: 80%;
     margin: auto;
     font-family: 'DM Sans', sans-serif;
@@ -141,6 +141,7 @@ export const RightSideArea = styled(motion.div)`
     display: flex;
     flex-direction: column;
     margin-left: 20%;
+    margin-bottom: 40px;
 
     h2 {
         font-size: 20px;
@@ -167,8 +168,8 @@ export const StackIconArea = styled.div`
     gap: 30px;
 
     svg {
-        height: 30px;
-        width: 30px;
+        height: 22px;
+        width: 22px;
         color: #4831d4;
     }
 
