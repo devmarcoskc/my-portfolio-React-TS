@@ -38,17 +38,18 @@ function CarrerAndFuture({setSelectedPage}: Props) {
             <C.H1 
                 onViewportEnter={() => setSelectedPage(SelectedPage.CarreiraEFuturo)}
             >
-                Carreira e Futuro,
+                Carreira e Futuro:
             </C.H1>
             <C.Article>
-                Como vim da engenharia ambiental, acredito que o desenvolvimento web
+                Acredito que o desenvolvimento web
                 tem um poder enorme de mudar nossa comunidade, como em um projeto que fiz. 
                 Há mais de um ano venho estudando e  trabalhando no ramo, aumentando meu 
                 conhecimento sobre desenvolvimento 
-                web, principalmente frontend. Ao longo do
-                tempo já fiz projetos como freelancer, sei escutar e lidar com as necessidades do 
+                web. Ao longo do
+                tempo, já fiz projetos como freelancer, então sei escutar e lidar com as necessidades do 
                 cliente para o desenvolvimento do seu produto. Como decidi me tornar um desenvolvedor web, faço tudo ao meu
-                alcance para me tornar cada vez melhor. No futuro, pretendo me tornar fullstack. Então, vou sempre buscar 
+                alcance para me tornar cada vez melhor. No futuro, pretendo me tornar um tech leader e fazer mais projetos
+                que tenham impacto em minha comunidade. Então, vou sempre buscar 
                 novos desafios e melhorar minhas habilidades para que no meu futuro eu possa me tornar o 
                 melhor possível, como desenvolvedor e pessoa.
             </C.Article>

@@ -10,6 +10,8 @@ import Project4Img from '../../assets/Project4.png';
 import mobileSite4 from '../../assets/mobileSite4.png';
 import Project5Img from '../../assets/Project5.png';
 import mobileSite5 from '../../assets/mobileSite5.png';
+import Project6Img from '../../assets/project6.png';
+import mobileSite6 from '../../assets/mobileSite6.png';
 import RightDesignArea from '../../Components/RightDesignArea'; 
 import LeftSideDesign from '../../Components/LeftDesignArea';
 import {AiFillHtml5} from 'react-icons/ai';
@@ -22,7 +24,9 @@ import {SiStyledcomponents} from 'react-icons/si';
 import {SiReacthookform} from 'react-icons/si';
 import {SiFramer} from 'react-icons/si';
 import {SiTailwindcss} from 'react-icons/si';
+import {SiNextdotjs} from 'react-icons/si';
 import useMediaQuery from '../../Hooks/useMediaQuery';
+
 import { SelectedPage } from '../../Types/Types';
 
 type Props = {
@@ -190,7 +194,7 @@ const Projects = ({setSelectedPage}: Props) => {
               }
             </C.ProjectAndDesignArea>
 
-            <C.ProjectAndDesignArea style={{marginBottom:'100px'}}>
+            <C.ProjectAndDesignArea>
               <ProjectArea
                 title='Fitness Gym - Landing Page'
                 desc='
@@ -224,6 +228,45 @@ const Projects = ({setSelectedPage}: Props) => {
                 <RightDesignArea/>
               }
             </C.ProjectAndDesignArea>
+
+            <C.ProjectAndDesignArea style={{marginBottom:'100px'}}>
+              {isAboveMediumScreens &&
+                <LeftSideDesign/>
+              }
+
+              <ProjectArea
+                title='Página de Aluguel de Carros'
+                desc='
+                Site foi feito para demonstrar uma página de 
+                aluguel de carros usando as novas técnologias do Next.Js 13, como:
+                App Router, CSR (Client side redering), SSR (server side rendering),
+                optimização do sistema de SEO - usando o metadata do próprio Next. Não só isso,
+                mas também foi usado no projeto, Tailwind CSS, consumos de APIs externas para buscar os carros
+                e seus dados. O site ainda conta com um sistema avançado de filtragem para encontrar o carro
+                que se encontra em seus padrões de filtro desejados. O projeto foi feito em inglês para demonstrar meu
+                conhecimento em inglês. 
+                '
+                descTecnology='
+                Para este projeto foi utilizado: HTML5, Tailwind CSS, React.JS, Typescript, Next.Js.
+                '
+                mobileImg={mobileSite6}
+                desktopImage={Project6Img}
+                linkToProject='https://poluicaoatmosferica.netlify.app/'
+                linkToGithub='https://github.com/devmarcoskc/AirPolution'
+                colorToShadow='#00308F'
+              >
+                <AiFillHtml5/>
+                <SiTailwindcss/>
+                <DiReact/>
+                <SiTypescript/>
+                <SiNextdotjs/>
+              </ProjectArea>
+
+              {!isAboveMediumScreens &&
+                <RightDesignArea/>
+              }
+            </C.ProjectAndDesignArea>
+
 
         </C.Container>
         </main>

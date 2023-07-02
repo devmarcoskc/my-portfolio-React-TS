@@ -8,11 +8,13 @@ import {IoLogoJavascript} from 'react-icons/io';
 import {SiTypescript} from 'react-icons/si';
 import {DiGit} from 'react-icons/di';
 import {DiReact} from 'react-icons/di';
-import {BsFillDatabaseFill} from 'react-icons/bs';
 import {SiNextdotjs} from 'react-icons/si';
 import {TbBrandReactNative} from 'react-icons/tb';
 import {IoLogoNodejs} from 'react-icons/io';
 import {FiFigma} from 'react-icons/fi';
+import {SiMongodb} from 'react-icons/si';
+import {SiPostgresql} from 'react-icons/si';
+import {SiMysql} from 'react-icons/si';
 import RiscoDesign from '../../assets/riscoBlueIcon.png';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import mobileRiscoBlue from '../../assets/softRiscoBlueIcon.png'
@@ -92,8 +94,8 @@ function AboutMe({setSelectedPage}: Props) {
             <TextAndDesc
               title='Meu Stack:'
               text='Atualmente meus conhecimentos são: HTML5, CSS3, Javascript, Typescript, 
-              Git, ReactJS, 
-              básico de banco de dados (MySQL, phpMyAdmin) e básico de Figma.'
+              Git, ReactJS, Next.Js, Node.Js,
+              banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Conhecimento de Figma.'
             />
             <C.StackIconArea>
               <AiFillHtml5/>
@@ -102,18 +104,24 @@ function AboutMe({setSelectedPage}: Props) {
               <SiTypescript/>
               <DiGit/>
               <DiReact/>
-              <BsFillDatabaseFill/>
+              <SiNextdotjs/>
               <FiFigma/>
+            </C.StackIconArea>
+
+            <C.StackIconArea>
+              <IoLogoNodejs/>
+              <SiMongodb/>
+              <SiPostgresql/>
+              <SiMysql/>
             </C.StackIconArea>
             <h2>Próximos Passos:</h2>
             <p>
-              Atualmente estou estudando NextJS, mas no futuro vou 
-              expandir meu conhecimento para React Native e NodeJS.
+              Atualmente estou aprimorando meus conhecimentos em backEnd, nas técnologias: Node.js,
+              MongoDB, PostreSQL. No futuro, pretendo expandir meus conhecimentos para React Native e
+              desenvolvimento mobile.
             </p>
             <C.StackIconArea>
-              <SiNextdotjs/>
               <TbBrandReactNative/>
-              <IoLogoNodejs/>
             </C.StackIconArea>
           </C.RightSideArea>
 
