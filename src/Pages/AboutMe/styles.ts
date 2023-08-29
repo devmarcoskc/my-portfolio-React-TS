@@ -141,7 +141,7 @@ export const RightSideArea = styled(motion.div)`
     display: flex;
     flex-direction: column;
     margin-left: 20%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
     h2 {
         font-size: 20px;

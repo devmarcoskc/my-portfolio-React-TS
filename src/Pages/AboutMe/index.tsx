@@ -15,6 +15,7 @@ import {FiFigma} from 'react-icons/fi';
 import {SiMongodb} from 'react-icons/si';
 import {SiPostgresql} from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
+import {FaDocker} from 'react-icons/fa';
 import RiscoDesign from '../../assets/riscoBlueIcon.png';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import mobileRiscoBlue from '../../assets/softRiscoBlueIcon.png'
@@ -47,7 +48,7 @@ function AboutMe({setSelectedPage}: Props) {
           <TextAndDesc 
             title='Sobre Mim:' 
             text='
-              Olá, tudo bem ? Me chamo Marcos Kommling Centeno. Estou no ramo de desenvolvimento frontend há mais de 1 ano. 
+              Olá, tudo bem ? Me chamo Marcos Kommling Centeno. Estou no ramo de desenvolvimento web há mais de 1 ano. 
               Antes de decidir entrar na carreira, cursei engenharia ambiental na UFPEL por 2 anos, no qual tive
               o primeiro contato com programação. Desde então, resolvi estudar mais sobre o ramo e
               decidi me tornar um desenvolvedor web. Hoje, eu brinco que programar é como uma terapia:
@@ -95,7 +96,7 @@ function AboutMe({setSelectedPage}: Props) {
               title='Meu Stack:'
               text='Atualmente meus conhecimentos são: HTML5, CSS3, Javascript, Typescript, 
               Git, ReactJS, Next.Js, Node.Js,
-              banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Conhecimento de Figma.'
+              banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Em design: Figma.'
             />
             <C.StackIconArea>
               <AiFillHtml5/>
@@ -116,12 +117,12 @@ function AboutMe({setSelectedPage}: Props) {
             </C.StackIconArea>
             <h2>Próximos Passos:</h2>
             <p>
-              Atualmente estou aprimorando meus conhecimentos em backEnd, nas técnologias: Node.js,
-              MongoDB, PostreSQL. No futuro, pretendo expandir meus conhecimentos para React Native e
-              desenvolvimento mobile.
+              Atualmente estou estudando Docker e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
+              No futuro próximo, vou começar a estudar React Native e expandir meus conhecimentos na área mobile.  
             </p>
             <C.StackIconArea>
               <TbBrandReactNative/>
+              <FaDocker/>
             </C.StackIconArea>
           </C.RightSideArea>
 

@@ -694,7 +694,7 @@ export const H1 = styled(motion.h1)`
 `;
 
 export const Article = styled.article`
-    font-size: 17px;
+    font-size: 16.5px;
     color: #ccf381;
     max-width: 80%;
 

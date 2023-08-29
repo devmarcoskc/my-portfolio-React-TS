@@ -12,6 +12,10 @@ import Project5Img from '../../assets/Project5.png';
 import mobileSite5 from '../../assets/mobileSite5.png';
 import Project6Img from '../../assets/project6.png';
 import mobileSite6 from '../../assets/mobileSite6.png';
+import Project8img from '../../assets/project8.png';
+import mobileSite8 from '../../assets/mobileSite8.png';
+import Project9Img from '../../assets/project9.png';
+import mobileSite9 from '../../assets/mobileSite9.png';
 import RightDesignArea from '../../Components/RightDesignArea'; 
 import LeftSideDesign from '../../Components/LeftDesignArea';
 import {AiFillHtml5} from 'react-icons/ai';
@@ -25,9 +29,11 @@ import {SiReacthookform} from 'react-icons/si';
 import {SiFramer} from 'react-icons/si';
 import {SiTailwindcss} from 'react-icons/si';
 import {SiNextdotjs} from 'react-icons/si';
+import {SiMongodb} from 'react-icons/si';
+import {IoLogoNodejs} from 'react-icons/io';
 import useMediaQuery from '../../Hooks/useMediaQuery';
-
 import { SelectedPage } from '../../Types/Types';
+import HighlightProject from '../../Components/HighlightProject';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -47,6 +53,76 @@ const Projects = ({setSelectedPage}: Props) => {
             >
               Meus Projetos
             </C.H1>
+            <HighlightProject/>
+            {!isAboveMediumScreens &&
+              <RightDesignArea/>
+            }
+            <C.ProjectAndDesignArea>
+              {isAboveMediumScreens &&
+                <LeftSideDesign/>
+              }
+              <ProjectArea
+                title='Cards For You'
+                desc='
+                Cards for you é um site de compartilhamento de cartões de mensagens para todos usuário lerem!
+                A idéia do site foi feita para os usuários poderem espalharem suas mensagens positivas com a
+                comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
+                API Rest e RestFULL. Tudo isso utilizando as mais novas ferramentas do poderoso Next 13+, como: o novo sistema de rotas,
+                autenticação e autorização com NextAuth, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
+                posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens. Em breve, novas
+                features serão lançadas no projeto!
+                '
+                descTecnology='
+                As tecnologias do projeto utilizadas foram
+                HTML5, CSS3, Javascript, React.Js, Next.Js, MongoDB. 
+                '
+                mobileImg={mobileSite8}
+                desktopImage={Project8img}
+                linkToProject='https://personalfelipecenteno.com.br/'
+                linkToGithub='https://github.com/devmarcoskc/PersonalTrainer-JS'
+                colorToShadow='blue'
+              >
+                <AiFillHtml5/>
+                <SiCss3/>
+                <IoLogoJavascript/>
+                <DiReact/>
+                <SiNextdotjs/>
+                <SiMongodb/>
+              </ProjectArea>
+            </C.ProjectAndDesignArea>
+
+            <C.ProjectAndDesignArea>
+              <ProjectArea
+                title='Sociopedia - Sua rede social'
+                desc='
+                Esté é um dos meus principais projetos que estou mais gostando de desenvolver. Sociopedia é uma rede social
+                que você pode compartilhar posts com imagens e textos com seus amigos. Não só, mas também, adicionar amigos e 
+                curtir os posts! O projeto é full stack, composto com CRUD completo, autenticação e autorização. Para o banco de dados
+                foi optado por MongoDB por ser perfeito em essas ocasiões pela sua escalabilidade. Pois, os dados dos usuários -como exemplo, vão estar
+                em constante incrementação. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
+                foi optado por React.JS, utilizando redux, redux-toolkit, redux-persist, material-UI, formik, yup, react-dropzone. Como o projeto está no começo, estou desenvolvendo
+                novas features, como habilitar a opção de fazer comentários em posts, construir um chat para os usuários... 
+                '
+                descTecnology='
+                As tecnologias do projeto utilizadas foram
+                HTML5, CSS3, Javascript, Node.Js, MongoDB, React.Js.
+                '
+                mobileImg={mobileSite9}
+                desktopImage={Project9Img}
+                linkToProject='https://sociopedia-fnet.onrender.com/'
+                linkToGithub='https://github.com/devmarcoskc/sociopedia-MERN-stack'
+                colorToShadow='black'
+              >
+                <AiFillHtml5/>
+                <SiCss3/>
+                <IoLogoJavascript/>
+                <IoLogoNodejs/>
+                <SiMongodb/>
+                <DiReact/>
+              </ProjectArea>
+
+              <RightDesignArea/>
+           </C.ProjectAndDesignArea>
 
             <C.ProjectAndDesignArea>
               <ProjectArea
