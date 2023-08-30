@@ -23,7 +23,7 @@ const Home = ({setSelectedPage}: Props) => {
               <motion.h1 onViewportEnter={() => setSelectedPage(SelectedPage.Início)}>
                 Desenvolvedor
               </motion.h1>
-              <h1>FullStack.</h1>
+              <h1>Full Stack.</h1>
               <p>
                 Apaixonado pelo mundo da tecnologia e desenvolvimento
                 web.

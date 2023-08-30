@@ -117,8 +117,8 @@ function AboutMe({setSelectedPage}: Props) {
             </C.StackIconArea>
             <h2>Próximos Passos:</h2>
             <p>
-              Atualmente estou estudando Docker e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
-              No futuro próximo, vou começar a estudar React Native e expandir meus conhecimentos na área mobile.  
+              Atualmente estou estudando React Native e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
+              No futuro próximo, vou começar a estudar Docker e expandir meus conhecimentos na área mobile.  
             </p>
             <C.StackIconArea>
               <TbBrandReactNative/>
