@@ -16,9 +16,7 @@ import {useEffect} from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
 
-type Props = {}
-
-const HighlightProject = (props: Props) => {
+const HighlightProject = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
   const {ref, inView} = useInView({
