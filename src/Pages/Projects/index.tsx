@@ -78,8 +78,8 @@ const Projects = ({setSelectedPage}: Props) => {
                 '
                 mobileImg={mobileSite8}
                 desktopImage={Project8img}
-                linkToProject='https://personalfelipecenteno.com.br/'
-                linkToGithub='https://github.com/devmarcoskc/PersonalTrainer-JS'
+                linkToProject='https://cards-for-you.vercel.app/'
+                linkToGithub='https://github.com/devmarcoskc/CardsNext.Js13-Full-Stack'
                 colorToShadow='blue'
               >
                 <AiFillHtml5/>
