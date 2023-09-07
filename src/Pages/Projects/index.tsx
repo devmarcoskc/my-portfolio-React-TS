@@ -67,7 +67,7 @@ const Projects = ({setSelectedPage}: Props) => {
                 Cards for you é um site de compartilhamento de cartões de mensagens para todos usuário lerem!
                 A idéia do site foi feita para os usuários poderem espalharem suas mensagens positivas com a
                 comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
-                API Rest e RestFULL. Tudo isso utilizando as mais novas ferramentas do poderoso Next 13+, como: o novo sistema de rotas,
+                APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do poderoso Next 13+, como: o novo sistema de rotas,
                 autenticação e autorização com NextAuth, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
                 posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens. Em breve, novas
                 features serão lançadas no projeto!

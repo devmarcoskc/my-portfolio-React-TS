@@ -58,7 +58,7 @@ const HighlightProject = () => {
               A idéia para fazer o projeto veio da ausência de algumas prefeituras e empresas não possuírem um sistema de
               gerencimaneto de resíduos sólidos online, fazendo sua administração com base em pranchetas escritas. Pensando nisso,
               construi o projeto que está em fase inicial.
-              É um sistema fullstack MERN, composto com CRUD, autenticação, autorização e API REST e RESTful. 
+              É um sistema fullstack MERN, composto com CRUD, autenticação, autorização e APIs REST e RESTful. 
               Cada aspectos mais imporantes das tecnologias foram utilizados para desenvolver o software. A escolha do MongoDB se deu
               pelo seu benefício de leitura de dados extramamente rápida e por sua escalabilidade dos dados. O BackEnd está rodando com Node.js e suas
               ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No FrontEnd, React (redux, redux-toolkit, axios, redux-persist, styled-components, react-hook-form, zod, nivo)
