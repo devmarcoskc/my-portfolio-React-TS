@@ -51,7 +51,7 @@ function AboutMe({setSelectedPage}: Props) {
               Olá, tudo bem ? Me chamo Marcos Kommling Centeno. Estou no ramo de desenvolvimento web há mais de 1 ano. 
               Antes de decidir entrar na carreira, cursei engenharia ambiental na UFPEL por 2 anos, no qual tive
               o primeiro contato com programação. Desde então, resolvi estudar mais sobre o ramo e
-              decidi me tornar um desenvolvedor web. Hoje, eu brinco que programar é como uma terapia:
+              decidi me tornar um desenvolvedor web, atualmente cursando Análise e Desenvolvimento de Sistemas. Hoje, eu brinco que programar é como uma terapia:
               as vezes te deixa meio triste, outras horas tudo flui com leveza :), mas depois de cada projeto feito
               você se sente mais realizado.
             '

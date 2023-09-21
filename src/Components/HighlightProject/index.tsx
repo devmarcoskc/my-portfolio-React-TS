@@ -58,17 +58,15 @@ const HighlightProject = () => {
               A idéia para fazer o projeto veio da ausência de algumas prefeituras e empresas não possuírem um sistema de
               gerencimaneto de resíduos sólidos online, fazendo sua administração com base em pranchetas escritas. Pensando nisso,
               construi o projeto que está em fase inicial.
-              É um sistema fullstack MERN, composto com CRUD, autenticação, autorização e APIs REST e RESTful. 
-              Cada aspectos mais imporantes das tecnologias foram utilizados para desenvolver o software. A escolha do MongoDB se deu
-              pelo seu benefício de leitura de dados extramamente rápida e por sua escalabilidade dos dados. O BackEnd está rodando com Node.js e suas
-              ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No FrontEnd, React (redux, redux-toolkit, axios, redux-persist, styled-components, react-hook-form, zod, nivo)
-              contendo formulários dinâmicos, sistemas de validação, etc...  
-              Pensando nas necessidades dos usuários, o sistema foi criado para fazer o envio das coletas
-              de resíduos com apenas alguns cliques, fazendo elas ficarem salvas em um banco de dados. Após isso, dentro do software, 
-              o usuário pode obter todas as informações de suas coletas e ainda checar suas estastícas, tais como totais coletados e as médias gerais.
-              Para estipular os tipos de categorias de resíduos sólidos que existem, foi-se baseado nas leis da 
-              CONAMA(Conselho Nacional do Meio Ambiente), seguindo os critérios para estabelecer suas classificações.
-              O sistema ainda tem uma sessão inteira de anotações que podem ser deixadas para os colegas lerem!
+              As funcionalidades do software tem como objetivo cumprir as demandas que os órgãos são exigidos para fazer a administração dos resíduos. 
+              Dentre algumas: anotações de todas as coletas dos resíduos, quantificação dos tais, nomeação das categorias de resíduos - 
+              seguindo os critérios do CONAMA (Conselho Nacional do Meio Ambiente), nomeação de cada rota e bairro em que foram feitas as coletas. 
+              Após isso, o usuário tem todas as estatísticas gerais apresentadas, como o acúmulo total de resíduos sólidos coletados, quantidade geral 
+              de resíduos por categoria. Não só, mas também, pode-se obter estatísticas por bairro registrado, mês ou ano. A tecnologia ainda conta com 
+              uma sessão inteira de comentários que podem ser adicionados e lidos para os usuários. Para desenvolver o software, foi utilizado as tecnlogias:
+              Node.Js (CRUD, APIs REST/RESTful, Autenticação/Autorização), MongoDB (Arquitetura de banco de dados), React.js (requisições HTTP, componentização, 
+              hooks, redux, react-hook-form, zod, axios), Styled-components, nivo-charts. 
+              Todas essas funcionalidades apresentadas podem ser executadas com apenas alguns cliques, fazendo o usuário ter uma excelente UX
             </p>
           
           {isAboveMediumScreens &&
