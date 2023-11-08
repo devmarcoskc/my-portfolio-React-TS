@@ -67,8 +67,8 @@ const Projects = ({setSelectedPage}: Props) => {
                 Cards for you é um site de compartilhamento de cartões de mensagens para todos usuário lerem!
                 A idéia do site foi feita para os usuários poderem espalharem suas mensagens positivas com a
                 comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
-                APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do poderoso Next 13+, como: o novo sistema de rotas,
-                autenticação e autorização com NextAuth, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
+                APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do Next 13+, como: API Routes,
+                autenticação e autorização com NextAuth, SSR, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
                 posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens. Em breve, novas
                 features serão lançadas no projeto!
                 '
@@ -98,8 +98,7 @@ const Projects = ({setSelectedPage}: Props) => {
                 Esté é um dos meus principais projetos que estou mais gostando de desenvolver. Sociopedia é uma rede social
                 que você pode compartilhar posts com imagens e textos com seus amigos. Não só, mas também, adicionar amigos e 
                 curtir os posts! O projeto é full stack, composto com CRUD completo, autenticação e autorização. Para o banco de dados
-                foi optado por MongoDB por ser perfeito em essas ocasiões pela sua escalabilidade. Pois, os dados dos usuários -como exemplo, vão estar
-                em constante incrementação. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
+                foi optado por MongoDB. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
                 foi optado por React.JS, utilizando redux, redux-toolkit, redux-persist, material-UI, formik, yup, react-dropzone. Como o projeto está no começo, estou desenvolvendo
                 novas features, como habilitar a opção de fazer comentários em posts, construir um chat para os usuários... 
                 '
