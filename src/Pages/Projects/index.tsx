@@ -16,6 +16,8 @@ import Project8img from '../../assets/project8.png';
 import mobileSite8 from '../../assets/mobileSite8.png';
 import Project9Img from '../../assets/project9.png';
 import mobileSite9 from '../../assets/mobileSite9.png';
+import Project10Img from '../../assets/project10.png';
+import mobileSite10 from '../../assets/mobileSite10.png';
 import RightDesignArea from '../../Components/RightDesignArea'; 
 import LeftSideDesign from '../../Components/LeftDesignArea';
 import {AiFillHtml5} from 'react-icons/ai';
@@ -69,8 +71,7 @@ const Projects = ({setSelectedPage}: Props) => {
                 comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
                 APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do Next 13+, como: API Routes,
                 autenticação e autorização com NextAuth, SSR, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
-                posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens. Em breve, novas
-                features serão lançadas no projeto!
+                posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens!
                 '
                 descTecnology='
                 As tecnologias do projeto utilizadas foram
@@ -122,6 +123,42 @@ const Projects = ({setSelectedPage}: Props) => {
 
               <RightDesignArea/>
            </C.ProjectAndDesignArea>
+
+           <C.ProjectAndDesignArea>
+              {isAboveMediumScreens &&
+                <LeftSideDesign/>
+              }
+              <ProjectArea
+                title='Estoque+'
+                desc='
+                Desenvolvi uma plataforma de gerenciamento de estoque para pequenas empresas. 
+                As funcionalidades do sistema tem como objetivo facilitar o controle, 
+                organização e otimização do inventário de uma empresa. Para fazer a plataforma, Node.Js foi utilizado no backend, 
+                oferecendo suporte a APIs REST/RESTful, implementação de CRUD e gerenciamento de autenticação e autorização.
+                MongoDB para a arquitetura do banco de dados.
+                React e Styled-components para criar uma interface atraente e responsiva.
+                Context e React Hooks para implementar gerenciamento de estados.
+                React-hook-form e zod na criação de formulários dinâmicos.
+                TypeScript para fornecer mais segurança e clareza no desenvolvimento de código.
+                '
+                descTecnology='
+                As tecnologias do projeto utilizadas foram
+                HTML5, CSS3, Node.Js, React.Js, Typescript, MongoDB. 
+                '
+                mobileImg={mobileSite10}
+                desktopImage={Project10Img}
+                linkToProject='https://estoquemais.onrender.com/'
+                linkToGithub='https://github.com/devmarcoskc/estoque-frontEnd-ReactTS'
+                colorToShadow='blue'
+              >
+                <AiFillHtml5/>
+                <SiCss3/>
+                <IoLogoNodejs/>
+                <SiTypescript/>
+                <DiReact/>
+                <SiMongodb/>
+              </ProjectArea>
+            </C.ProjectAndDesignArea>
 
             <C.ProjectAndDesignArea>
               <ProjectArea

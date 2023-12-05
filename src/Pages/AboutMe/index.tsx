@@ -95,7 +95,7 @@ function AboutMe({setSelectedPage}: Props) {
             <TextAndDesc
               title='Meu Stack:'
               text='Atualmente meus conhecimentos são: HTML5, CSS3, Javascript, Typescript, 
-              Git, ReactJS, Next.Js, Node.Js,
+              Git, ReactJS, React Native, Next.Js, Node.Js,
               banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Em design: Figma.'
             />
             <C.StackIconArea>
@@ -105,6 +105,7 @@ function AboutMe({setSelectedPage}: Props) {
               <SiTypescript/>
               <DiGit/>
               <DiReact/>
+              <TbBrandReactNative/>
               <SiNextdotjs/>
               <FiFigma/>
             </C.StackIconArea>
@@ -117,11 +118,9 @@ function AboutMe({setSelectedPage}: Props) {
             </C.StackIconArea>
             <h2>Próximos Passos:</h2>
             <p>
-              Atualmente estou estudando React Native e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
-              No futuro próximo, vou começar a estudar Docker e expandir meus conhecimentos na área mobile.  
+              Atualmente estou estudando Docker e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
             </p>
             <C.StackIconArea>
-              <TbBrandReactNative/>
               <FaDocker/>
             </C.StackIconArea>
           </C.RightSideArea>
