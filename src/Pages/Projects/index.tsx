@@ -12,6 +12,8 @@ import Project5Img from '../../assets/Project5.png';
 import mobileSite5 from '../../assets/mobileSite5.png';
 import Project6Img from '../../assets/project6.png';
 import mobileSite6 from '../../assets/mobileSite6.png';
+import Project7Img from '../../assets/project7-1.png';
+import mobileSite7 from "../../assets/mobileSite7-1.png";
 import Project8img from '../../assets/project8.png';
 import mobileSite8 from '../../assets/mobileSite8.png';
 import Project9Img from '../../assets/project9.png';
@@ -35,7 +37,6 @@ import {SiMongodb} from 'react-icons/si';
 import {IoLogoNodejs} from 'react-icons/io';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import { SelectedPage } from '../../Types/Types';
-import HighlightProject from '../../Components/HighlightProject';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -55,63 +56,26 @@ const Projects = ({setSelectedPage}: Props) => {
             >
               Meus Projetos
             </C.H1>
-            <HighlightProject/>
-            {!isAboveMediumScreens &&
-              <RightDesignArea/>
-            }
-            <C.ProjectAndDesignArea>
-              {isAboveMediumScreens &&
-                <LeftSideDesign/>
-              }
-              <ProjectArea
-                title='Cards For You'
-                desc='
-                Cards for you é um site de compartilhamento de cartões de mensagens para todos usuário lerem!
-                A idéia do site foi feita para os usuários poderem espalharem suas mensagens positivas com a
-                comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
-                APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do Next 13+, como: API Routes,
-                autenticação e autorização com NextAuth, SSR, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
-                posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens!
-                '
-                descTecnology='
-                As tecnologias do projeto utilizadas foram
-                HTML5, CSS3, Javascript, React.Js, Next.Js, MongoDB. 
-                '
-                mobileImg={mobileSite8}
-                desktopImage={Project8img}
-                linkToProject='https://cards-for-you.vercel.app/'
-                linkToGithub='https://github.com/devmarcoskc/CardsNext.Js13-Full-Stack'
-                colorToShadow='blue'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <IoLogoJavascript/>
-                <DiReact/>
-                <SiNextdotjs/>
-                <SiMongodb/>
-              </ProjectArea>
-            </C.ProjectAndDesignArea>
-
             <C.ProjectAndDesignArea>
               <ProjectArea
-                title='Sociopedia - Sua rede social'
+                title='EcoAdministração'
                 desc='
-                Esté é um dos meus principais projetos que estou mais gostando de desenvolver. Sociopedia é uma rede social
-                que você pode compartilhar posts com imagens e textos com seus amigos. Não só, mas também, adicionar amigos e 
-                curtir os posts! O projeto é full stack, composto com CRUD completo, autenticação e autorização. Para o banco de dados
-                foi optado por MongoDB. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
-                foi optado por React.JS, utilizando redux, redux-toolkit, redux-persist, material-UI, formik, yup, react-dropzone. Como o projeto está no começo, estou desenvolvendo
-                novas features, como habilitar a opção de fazer comentários em posts, construir um chat para os usuários... 
+                EcoAdministração é um sistema de gerenciamento de resíduos sólidos para prefeituras e empresas.
+                 A idéia para criar o sofware começou quando estive envolvido na construção do plano
+                de saneamento de básico da cidade de Santa Vitória do Palmar, há alguns anos atrás, e notei que a prefeitura não possuia nenhum sistema para fazer o gerencimanto
+                de dados dos resíduos sólidos gerados no município. Então, entrei em contato com a prefeitura e mostrei o meu sistema para resolver o problema.
+                 As funcionalidades do sistema foram projetadas para atender às exigências dos órgãos reguladores no gerenciamento de resíduos, tais como: estatísticas dos resíduos gerados, estatísticas por categoria de resíduo, quantificação por bairro e rotas.
+                 O Link abaixo é para ver uma demonstração do projeto.
                 '
                 descTecnology='
                 As tecnologias do projeto utilizadas foram
                 HTML5, CSS3, Javascript, Node.Js, MongoDB, React.Js.
                 '
-                mobileImg={mobileSite9}
-                desktopImage={Project9Img}
-                linkToProject='https://sociopedia-fnet.onrender.com/'
+                mobileImg={mobileSite7}
+                desktopImage={Project7Img}
+                linkToProject='https://gerenciamento-residuos-solidos.onrender.com/'
                 linkToGithub='https://github.com/devmarcoskc/sociopedia-MERN-stack'
-                colorToShadow='black'
+                colorToShadow='rgb(255,69,0)'
               >
                 <AiFillHtml5/>
                 <SiCss3/>
@@ -156,6 +120,74 @@ const Projects = ({setSelectedPage}: Props) => {
                 <IoLogoNodejs/>
                 <SiTypescript/>
                 <DiReact/>
+                <SiMongodb/>
+              </ProjectArea>
+            </C.ProjectAndDesignArea>
+
+            <C.ProjectAndDesignArea>
+              <ProjectArea
+                title='Sociopedia - Sua rede social'
+                desc='
+                Esté é um dos meus principais projetos que estou mais gostando de desenvolver. Sociopedia é uma rede social
+                que você pode compartilhar posts com imagens e textos com seus amigos. Não só, mas também, adicionar amigos e 
+                curtir os posts! O projeto é full stack, composto com CRUD completo, autenticação e autorização. Para o banco de dados
+                foi optado por MongoDB. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
+                foi optado por React.JS, utilizando redux, redux-toolkit, redux-persist, material-UI, formik, yup, react-dropzone. Como o projeto está no começo, estou desenvolvendo
+                novas features, como habilitar a opção de fazer comentários em posts, construir um chat para os usuários... 
+                '
+                descTecnology='
+                As tecnologias do projeto utilizadas foram
+                HTML5, CSS3, Javascript, Node.Js, MongoDB, React.Js.
+                '
+                mobileImg={mobileSite9}
+                desktopImage={Project9Img}
+                linkToProject='https://sociopedia-fnet.onrender.com/'
+                linkToGithub='https://github.com/devmarcoskc/sociopedia-MERN-stack'
+                colorToShadow='black'
+              >
+                <AiFillHtml5/>
+                <SiCss3/>
+                <IoLogoJavascript/>
+                <IoLogoNodejs/>
+                <SiMongodb/>
+                <DiReact/>
+              </ProjectArea>
+
+              <RightDesignArea/>
+           </C.ProjectAndDesignArea>
+
+            {!isAboveMediumScreens &&
+              <RightDesignArea/>
+            }
+            <C.ProjectAndDesignArea>
+              {isAboveMediumScreens &&
+                <LeftSideDesign/>
+              }
+              <ProjectArea
+                title='Cards For You'
+                desc='
+                Cards for you é um site de compartilhamento de cartões de mensagens para todos usuário lerem!
+                A idéia do site foi feita para os usuários poderem espalharem suas mensagens positivas com a
+                comunidade. O projeto full stack é composto com CRUD completo, sistema de autenticação e autorização,
+                APIs Rest e RestFul. Tudo isso utilizando as mais novas ferramentas do Next 13+, como: API Routes,
+                autenticação e autorização com NextAuth, SSR, sistema de paginação dinâmicas do próprio Next, sistema de SEO para facilitar a indexação,
+                posicionamento e ranqueamento da página nos sistemas de buscas. O projeto já contém usuários espalhando suas mensagens!
+                '
+                descTecnology='
+                As tecnologias do projeto utilizadas foram
+                HTML5, CSS3, Javascript, React.Js, Next.Js, MongoDB. 
+                '
+                mobileImg={mobileSite8}
+                desktopImage={Project8img}
+                linkToProject='https://cards-for-you.vercel.app/'
+                linkToGithub='https://github.com/devmarcoskc/CardsNext.Js13-Full-Stack'
+                colorToShadow='blue'
+              >
+                <AiFillHtml5/>
+                <SiCss3/>
+                <IoLogoJavascript/>
+                <DiReact/>
+                <SiNextdotjs/>
                 <SiMongodb/>
               </ProjectArea>
             </C.ProjectAndDesignArea>

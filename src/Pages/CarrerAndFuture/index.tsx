@@ -41,14 +41,13 @@ function CarrerAndFuture({setSelectedPage}: Props) {
                 Carreira e Futuro:
             </C.H1>
             <C.Article>
-                Há mais de um ano estudando e trabalhando no ramo, estou convicto 
-                que o desenvolvimento web
-                tem um poder enorme de mudar nossa comunidade. 
+                Durante anos trabalhando no ramo, estou convicto que a profissão de desenvolvedor de software
+                tem um poder enorme de mudar nossa comunidade e criar soluções para problemas que enfrentamos no dia a dia. 
                 Ao longo desse
-                tempo, já fiz projetos como freelancer, sistemas que podem ser usados por empresas e prefeituras, projetos
-                que contém usuários ativos compartilhando suas mensagens. Parte desses projetos, se teve pela ideia de resolver problemas da 
-                comunidade e pensar em softwares criativos que façam as pessoas gostarem de usar.
-                Como decidi me tornar um desenvolvedor web, faço tudo ao meu
+                tempo, já trabalhei como freelancer, criei sistemas que podem ser usados por empresas e prefeituras, desenvolvi um aplicativo que gerou lucros para o meu o cliente.
+                 Tenho projetos
+                que contém usuários pelo Brasil compartilhando suas mensagens.
+                Então, como decidi me tornar um desenvolvedor de software, faço tudo ao meu
                 alcance para me tornar cada vez melhor. No futuro, pretendo me tornar um tech leader e fazer mais projetos
                 que tenham impacto em minha comunidade. Então, vou sempre buscar 
                 novos desafios e melhorar minhas habilidades para que no meu futuro eu possa me tornar o 
