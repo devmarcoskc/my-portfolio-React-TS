@@ -74,7 +74,7 @@ const Projects = ({setSelectedPage}: Props) => {
                 mobileImg={mobileSite7}
                 desktopImage={Project7Img}
                 linkToProject='https://gerenciamento-residuos-solidos.onrender.com/'
-                linkToGithub='https://github.com/devmarcoskc/sociopedia-MERN-stack'
+                linkToGithub='https://github.com/devmarcoskc/Gerenciamento-residuos-MERN-stack'
                 colorToShadow='rgb(255,69,0)'
               >
                 <AiFillHtml5/>
