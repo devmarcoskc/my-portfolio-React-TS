@@ -31,10 +31,7 @@ const Home = ({setSelectedPage}: Props) => {
             </C.TitleArea>
             <C.BasicDescriptionsArea>
               <div className='left-side-text'>
-                Gosto de dasafios que abrangem meu conhecimento como desenvolvedor.
-              </div>
-              <div className='right-side-text'>
-                Experiência em lidar com cliente e escutar suas necessidades para o produto.
+                Experiência em criar plataformas com múltiplos usuários pelo Brasil.
               </div>
             </C.BasicDescriptionsArea>
           </C.LeftSideTexts>

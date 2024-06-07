@@ -113,13 +113,10 @@ function AboutMe({setSelectedPage}: Props) {
               <SiPostgresql/>
               <SiMysql/>
             </C.StackIconArea>
-            <h2>Próximos Passos:</h2>
+            <h2>Conhecimentos extras:</h2>
             <p>
-              Atualmente estou estudando Docker e sempre aprimorando os meus conhecimentos que já possuo, com projetos e estudos diários.
+              Tenho experiência em hospedagem de API's em VPS, utilizando Linux e Ubuntu. Experiência em building de aplicativos para Android e IOs, assim como utilizar a plataforma para devs do google play console e apple developers para gerenciar e publicar aplicativos.
             </p>
-            <C.StackIconArea>
-              <FaDocker/>
-            </C.StackIconArea>
           </C.RightSideArea>
 
       </C.SecondContainer>

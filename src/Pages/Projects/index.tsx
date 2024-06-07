@@ -37,6 +37,7 @@ import {SiMongodb} from 'react-icons/si';
 import {IoLogoNodejs} from 'react-icons/io';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import { SelectedPage } from '../../Types/Types';
+import DailyCareApp from '../../Components/DailyCareApp';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -47,15 +48,19 @@ const Projects = ({setSelectedPage}: Props) => {
 
   return (
     <C.Section
-      id='projetos'
+      id='trabalhos'
     >
       <main>
         <C.Container>
             <C.H1
-              onViewportEnter={() => setSelectedPage(SelectedPage.Projetos)}
+              onViewportEnter={() => setSelectedPage(SelectedPage.Trabalhos)}
             >
-              Meus Projetos
+              Meus Principais Trabalhos
             </C.H1>
+            <C.ProjectAndDesignArea>
+              <DailyCareApp/>
+              <LeftSideDesign/>
+            </C.ProjectAndDesignArea>
             <C.ProjectAndDesignArea>
               <ProjectArea
                 title='EcoAdministração'
@@ -124,38 +129,6 @@ const Projects = ({setSelectedPage}: Props) => {
               </ProjectArea>
             </C.ProjectAndDesignArea>
 
-            <C.ProjectAndDesignArea>
-              <ProjectArea
-                title='Sociopedia - Sua rede social'
-                desc='
-                Esté é um dos meus principais projetos que estou mais gostando de desenvolver. Sociopedia é uma rede social
-                que você pode compartilhar posts com imagens e textos com seus amigos. Não só, mas também, adicionar amigos e 
-                curtir os posts! O projeto é full stack, composto com CRUD completo, autenticação e autorização. Para o banco de dados
-                foi optado por MongoDB. No backend está rodando Node.js e suas ferramentas (JWT, express, mongoose, bcrypt, nodemoon, entre outros...). No frontEnd
-                foi optado por React.JS, utilizando redux, redux-toolkit, redux-persist, material-UI, formik, yup, react-dropzone. Como o projeto está no começo, estou desenvolvendo
-                novas features, como habilitar a opção de fazer comentários em posts, construir um chat para os usuários... 
-                '
-                descTecnology='
-                As tecnologias do projeto utilizadas foram
-                HTML5, CSS3, Javascript, Node.Js, MongoDB, React.Js.
-                '
-                mobileImg={mobileSite9}
-                desktopImage={Project9Img}
-                linkToProject='https://sociopedia-fnet.onrender.com/'
-                linkToGithub='https://github.com/devmarcoskc/sociopedia-MERN-stack'
-                colorToShadow='black'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <IoLogoJavascript/>
-                <IoLogoNodejs/>
-                <SiMongodb/>
-                <DiReact/>
-              </ProjectArea>
-
-              <RightDesignArea/>
-           </C.ProjectAndDesignArea>
-
             {!isAboveMediumScreens &&
               <RightDesignArea/>
             }
@@ -190,114 +163,6 @@ const Projects = ({setSelectedPage}: Props) => {
                 <SiNextdotjs/>
                 <SiMongodb/>
               </ProjectArea>
-            </C.ProjectAndDesignArea>
-
-            <C.ProjectAndDesignArea>
-              <ProjectArea
-                title='Personal Trainer - Freelancer'
-                desc='
-                Projeto freelancer foi feito para personal trainer,
-                no qual tive que atender as necessidades, espectativas do cliente e passar
-                tudo para o design e código.
-                Ao longo do desenvolvimento houve mudanças no design e nas funcionalidades,
-                com o intuito de chegar o mais próximo possível das necessidades do
-                cliente. Atualmente eu faço a administração e manuntenção do site.
-                '
-                descTecnology='
-                As tecnologias do projeto utilizadas foram
-                HTML5, CSS3, Javascript e Figma
-                '
-                mobileImg={mobileSite1}
-                desktopImage={Project1Img}
-                linkToProject='https://personalfelipecenteno.com.br/'
-                linkToGithub='https://github.com/devmarcoskc/PersonalTrainer-JS'
-                colorToShadow='black'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <IoLogoJavascript/>
-                <FiFigma/>
-              </ProjectArea>
-
-              <RightDesignArea/>
-           </C.ProjectAndDesignArea>
-
-            <C.ProjectAndDesignArea>
-              {isAboveMediumScreens &&
-                <LeftSideDesign/>
-              }
-
-              <ProjectArea
-                title='Site de Vendas e Divulgação- Painéis Solares'
-                desc='
-                Projeto feito para divulgação de uma possível
-                empresa de fabricação de painéis solares. Este projeto contém 
-                uma parte, no qual você pode simular o quanto de painéis solares
-                você irá precisar na sua casa, baseado na sua região. Para esta parte,
-                foi utilizada uma API americana que mostra o índice de incidência solar
-                por m², na sua localidade. Após ter esse índice em mãos, utilizei cálculos
-                e lógica que um engenheiro eletricista precisaria para mostrar o quanto
-                de energia cada painel solar iria produzir. Site também conta um sistema de Login 
-                baseado no LocalStorage para imersão de usuário e também um sistema de carrinho, 
-                no qual cada usuário tem suas compras salvadas. 
-                '
-                descTecnology='
-                Para este projeto foi utilizado: HTML5, CSS3, React.JS, Typescript, Styled-components, react-hook-form
-                '
-                mobileImg={mobileSite2}
-                desktopImage={Project2Img}
-                linkToProject='https://solarpanelscompany.netlify.app/'
-                linkToGithub='https://github.com/devmarcoskc/Solar-REACT-TS'
-                colorToShadow='blue'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <DiReact/>
-                <SiTypescript/>
-                <SiStyledcomponents/>
-                <SiReacthookform/>
-              </ProjectArea>
-
-              {!isAboveMediumScreens &&
-                <RightDesignArea/>
-              }
-            </C.ProjectAndDesignArea>
-
-            <C.ProjectAndDesignArea>
-              <ProjectArea
-                title='BMW Model X Page- Um Design Diferente'
-                desc='
-                Este projeto é uma página dos modelos da linha X da BMW. É muito
-                parecida com a original, com ajustes no design feito por mim. Esta
-                página conta com um validador de formulário para vendas, assim como
-                o site original da BMW. Para o formulário foi usado RegExp para todos os
-                campos, ele também contém sistemas de autocomplete
-                da região baseado no CEP, via API. Tabmém possui sistema de busca por cidade
-                e estado por API. O site também conta com um sistema de login integrado
-                ao localStorage, para ter uma imersão de usuário e também um sistema de busca
-                de concessionária no Sul do Brasil.
-                '
-                descTecnology='
-                As tecnologias do projeto utilizadas foram
-                HTML5, CSS3, React.JS, Typescript, Styled-components,
-                react-hook-form, framer-motion
-                '
-                mobileImg={mobileSite3}
-                desktopImage={Project3Img}
-                linkToProject='https://bmwmodelx.netlify.app/'
-                linkToGithub='https://github.com/devmarcoskc/bmwModelX-REACT-TS'
-                colorToShadow='#464242'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <DiReact/>
-                <SiTypescript/>
-                <SiStyledcomponents/>
-                <SiReacthookform/>
-                <SiFramer/>
-              </ProjectArea>
-
-              <RightDesignArea/>
             </C.ProjectAndDesignArea>
 
             <C.ProjectAndDesignArea>
@@ -337,81 +202,6 @@ const Projects = ({setSelectedPage}: Props) => {
                 <RightDesignArea/>
               }
             </C.ProjectAndDesignArea>
-
-            <C.ProjectAndDesignArea>
-              <ProjectArea
-                title='Fitness Gym - Landing Page'
-                desc='
-                Este projeto foi feito para mostrar uma Landing Page
-                de uma imaginária franquia de academia. O site conta 
-                com um validador de formulário com react-hook-form, usando
-                os conhecimentos de RegExp, além do próprio design e animações.
-                Novas features para o site estão sendo planejadas e desenvolvidas.
-                '
-                descTecnology='
-                As tecnologias do projeto utilizadas foram
-                HTML5, CSS3, React.JS, Typescript, Tailwind,
-                react-hook-form, framer-motion
-                '
-                mobileImg={mobileSite5}
-                desktopImage={Project5Img}
-                linkToProject='https://fitnesslifestyleforyou.netlify.app/'
-                linkToGithub='https://github.com/devmarcoskc/FitnessGym-React-TS'
-                colorToShadow='#FFA6A3'
-              >
-                <AiFillHtml5/>
-                <SiCss3/>
-                <DiReact/>
-                <SiTypescript/>
-                <SiTailwindcss/>
-                <SiReacthookform/>
-                <SiFramer/>
-              </ProjectArea>
-
-              {isAboveMediumScreens &&
-                <RightDesignArea/>
-              }
-            </C.ProjectAndDesignArea>
-
-            <C.ProjectAndDesignArea style={{marginBottom:'100px'}}>
-              {isAboveMediumScreens &&
-                <LeftSideDesign/>
-              }
-
-              <ProjectArea
-                title='Página de Aluguel de Carros'
-                desc='
-                Site foi feito para demonstrar uma página de 
-                aluguel de carros usando as novas técnologias do Next.Js 13, como:
-                App Router, CSR (Client side redering), SSR (server side rendering),
-                optimização do sistema de SEO - usando o metadata do próprio Next. Não só isso,
-                mas também foi usado no projeto, Tailwind CSS, consumos de APIs externas para buscar os carros
-                e seus dados. O site ainda conta com um sistema avançado de filtragem para encontrar o carro
-                que se encontra em seus padrões de filtro desejados. O projeto foi feito em inglês para demonstrar meu
-                conhecimento em inglês. 
-                '
-                descTecnology='
-                Para este projeto foi utilizado: HTML5, Tailwind CSS, React.JS, Typescript, Next.Js.
-                '
-                mobileImg={mobileSite6}
-                desktopImage={Project6Img}
-                linkToProject='https://poluicaoatmosferica.netlify.app/'
-                linkToGithub='https://github.com/devmarcoskc/AirPolution'
-                colorToShadow='#00308F'
-              >
-                <AiFillHtml5/>
-                <SiTailwindcss/>
-                <DiReact/>
-                <SiTypescript/>
-                <SiNextdotjs/>
-              </ProjectArea>
-
-              {!isAboveMediumScreens &&
-                <RightDesignArea/>
-              }
-            </C.ProjectAndDesignArea>
-
-
         </C.Container>
         </main>
     </C.Section>

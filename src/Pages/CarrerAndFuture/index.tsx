@@ -41,11 +41,9 @@ function CarrerAndFuture({setSelectedPage}: Props) {
                 Carreira e Futuro:
             </C.H1>
             <C.Article>
-                Durante anos trabalhando no ramo, estou convicto que a profissão de desenvolvedor de software
-                tem um poder enorme de mudar nossa comunidade e criar soluções para problemas que enfrentamos no dia a dia. 
-                Ao longo desse
-                tempo, já trabalhei como freelancer, criei sistemas que podem ser usados por empresas e prefeituras, desenvolvi um aplicativo que gerou lucros para o meu o cliente.
-                 Tenho projetos
+                Durante anos trabalhando no ramo, construi plataformas que são usadas por profissionais de saúde com seus pacientes diariamente.
+                Criei um aplicativo que gerou lucrou e ajudou a solucionar problemas que um personal trainer estava enfretando.
+                Tenho projetos paralelos,
                 que contém usuários pelo Brasil compartilhando suas mensagens.
                 Então, como decidi me tornar um desenvolvedor de software, faço tudo ao meu
                 alcance para me tornar cada vez melhor. No futuro, pretendo me tornar um tech leader e fazer mais projetos
