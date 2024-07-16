@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import pacienteVideo from "../../assets/paciente.mp4";
 import profissionalVideo from "../../assets/profissional.mp4";
-import { AnchorLinkDiv } from "../ProjectArea/styles";
 
 const Container = styled(motion.div)`
   height: auto;
@@ -10,6 +9,7 @@ const Container = styled(motion.div)`
   display: flex;
   flex-direction: column;
   margin-right: 20px;
+  color: #4831d4;
 
   h1 {
     font-size: 24px;
@@ -25,6 +25,10 @@ const ContentContainer = styled.div`
   display: flex;
   width: 100%;
   height: auto;
+
+  @media(max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 const LeftSideVideoArea = styled.div`
@@ -36,6 +40,12 @@ const LeftSideVideoArea = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  @media(max-width: 768px) {
+    width: 70%;
+    marin-top: 5px;
+    margin-bottom: 5px;
   }
 `;
 
@@ -57,6 +67,12 @@ const RighSideVideoArea = styled.div`
     height: 100%;
     object-fit: cover;
   }
+
+  @media(max-width: 768px) {
+    width: 70%;
+    marin-top: 5px;
+    margin-bottom: 5px;
+  }
 `;
 
 const BottomAreaDiv = styled.div`
@@ -68,6 +84,12 @@ const BottomAreaDiv = styled.div`
   p {
     font-size: 14px;
     color: #3d155f;
+  }
+
+  h2 {           
+    font-size: 17px;
+    max-width: 95%;
+    margin-top: 10px;
   }
 `;
 
@@ -186,8 +208,10 @@ const DailyCareApp = () => {
           1 - Monitoramento contínuo, 2 - Comunicação eficiente, 3 - Tomadas de decisões mais informadas sobre o plano de tratamento, 4 - Empoderamento
           do paciente, 5 - Facilidade de acesso às informações;
         </p>
+        <h2>Tecnologias utilizadas:</h2>
+        <p>React Native, React, Styled-components, Node, MongoDB, MongoDB Atlas, Google Play Console, Apple developer, VPS.</p>
         <AnchorLinkDivArea>
-          <a>Conheça a Plataforma</a>
+          <a href="https://www.linkedin.com/company/dailycareapp/" target="_blank">Conheça a Plataforma</a>
         </AnchorLinkDivArea>
       </BottomAreaDiv>
     </Container>

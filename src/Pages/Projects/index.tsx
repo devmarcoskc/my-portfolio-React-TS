@@ -38,6 +38,7 @@ import {IoLogoNodejs} from 'react-icons/io';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import { SelectedPage } from '../../Types/Types';
 import DailyCareApp from '../../Components/DailyCareApp';
+import CentenoApp from '../../Components/CentenoApp/CentenoApp';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -60,6 +61,10 @@ const Projects = ({setSelectedPage}: Props) => {
             <C.ProjectAndDesignArea>
               <DailyCareApp/>
               <LeftSideDesign/>
+            </C.ProjectAndDesignArea>
+            <C.ProjectAndDesignArea>
+              <LeftSideDesign/>
+              <CentenoApp/>
             </C.ProjectAndDesignArea>
             <C.ProjectAndDesignArea>
               <ProjectArea
