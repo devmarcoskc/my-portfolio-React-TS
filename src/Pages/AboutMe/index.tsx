@@ -15,7 +15,6 @@ import {FiFigma} from 'react-icons/fi';
 import {SiMongodb} from 'react-icons/si';
 import {SiPostgresql} from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
-import {FaDocker} from 'react-icons/fa';
 import RiscoDesign from '../../assets/riscoBlueIcon.png';
 import useMediaQuery from '../../Hooks/useMediaQuery';
 import mobileRiscoBlue from '../../assets/softRiscoBlueIcon.png'
