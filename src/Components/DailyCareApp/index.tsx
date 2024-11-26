@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import pacienteVideo from "../../assets/paciente.mp4";
 import profissionalVideo from "../../assets/profissional.mp4";
+import dailyone from "../../assets/dailyone.mp4";
+import dailytwo from "../../assets/dailytwo.mp4";
 
 const Container = styled(motion.div)`
   height: auto;
@@ -175,7 +177,7 @@ const DailyCareApp = () => {
       <ContentContainer>
         <LeftSideVideoArea>
           <video
-            src={pacienteVideo}
+            src={dailyone}
             autoPlay
             muted
             loop
@@ -192,7 +194,7 @@ const DailyCareApp = () => {
         </TextArea>
         <RighSideVideoArea>
           <video
-            src={profissionalVideo}
+            src={dailytwo}
             autoPlay
             muted
             loop

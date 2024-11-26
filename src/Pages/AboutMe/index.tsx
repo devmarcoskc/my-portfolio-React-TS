@@ -14,6 +14,8 @@ import {IoLogoNodejs} from 'react-icons/io';
 import {FiFigma} from 'react-icons/fi';
 import {SiMongodb} from 'react-icons/si';
 import {SiPostgresql} from 'react-icons/si';
+import { SiFlutter } from 'react-icons/si';
+import { SiDart } from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
 import RiscoDesign from '../../assets/riscoBlueIcon.png';
 import useMediaQuery from '../../Hooks/useMediaQuery';
@@ -91,7 +93,7 @@ function AboutMe({setSelectedPage}: Props) {
             <TextAndDesc
               title='Meu Stack:'
               text='Atualmente meus conhecimentos são: HTML5, CSS3, Javascript, Typescript, 
-              Git, ReactJS, React Native, Next.Js, Node.Js,
+              Git, ReactJS, React Native, Flutter, Dart, Next.Js, Node.Js,
               banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Em design: Figma.'
             />
             <C.StackIconArea>
@@ -104,6 +106,8 @@ function AboutMe({setSelectedPage}: Props) {
               <TbBrandReactNative/>
               <SiNextdotjs/>
               <FiFigma/>
+              <SiFlutter/>
+              <SiDart/>
             </C.StackIconArea>
 
             <C.StackIconArea>
