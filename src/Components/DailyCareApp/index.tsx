@@ -1,7 +1,5 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import pacienteVideo from "../../assets/paciente.mp4";
-import profissionalVideo from "../../assets/profissional.mp4";
 import dailyone from "../../assets/dailyone.mp4";
 import dailytwo from "../../assets/dailytwo.mp4";
 
