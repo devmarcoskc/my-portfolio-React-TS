@@ -47,11 +47,15 @@ function AboutMe({setSelectedPage}: Props) {
           }}
         >
           <TextAndDesc 
-            title='Sobre Mim:' 
+            title='About me:' 
             text='
-              Olá, tudo bem ? Me chamo Marcos Kommling Centeno. Trabalho no ramo de desenvolvimento de software há anos, construindo soluções e plataformas para clientes.
-              Atualmente, estou cursando Análise e Desenvolvimento de Sistemas. Hoje, eu brinco que programar é como uma terapia:
-              as vezes te deixa meio triste, outras horas tudo flui com leveza :), mas a cada etapa você se sente mais realizado.
+              Hello, my name is Marcos! I have been working in the software development field for years, 
+              building solutions and platforms for clients. 
+              I have a degree in software engineering. Currently, 
+              I work as a front-end software developer. 
+              I lead and contribute to the development of new features for web and mobile platforms, 
+              with the goal of delivering an optimized and innovative user experience.
+
             '
           />
         </C.LeftSideDesc>
@@ -91,10 +95,11 @@ function AboutMe({setSelectedPage}: Props) {
             }}  
           >
             <TextAndDesc
-              title='Meu Stack:'
-              text='Atualmente meus conhecimentos são: HTML5, CSS3, Javascript, Typescript, 
-              Git, ReactJS, React Native, Flutter, Dart, Next.Js, Node.Js,
-              banco de dados: SQL (PostgreSQL, MySQL), NoSQL (MongoDB). Em design: Figma.'
+              title='My Stack:'
+              text='Currently, my knowledge includes: HTML5, CSS3, Javascript, Typescript, 
+              Git, ReactJS, React Native, Flutter, Dart,
+              Next.js, Node.js, Azure, databases: SQL (PostgreSQL, MySQL), 
+              NoSQL (MongoDB). In design: Figma.'
             />
             <C.StackIconArea>
               <AiFillHtml5/>
@@ -116,9 +121,9 @@ function AboutMe({setSelectedPage}: Props) {
               <SiPostgresql/>
               <SiMysql/>
             </C.StackIconArea>
-            <h2>Conhecimentos extras:</h2>
+            <h2>Additional skills:</h2>
             <p>
-              Tenho experiência em hospedagem de API's em VPS, utilizando Linux e Ubuntu. Experiência em building de aplicativos para Android e IOs, assim como utilizar a plataforma para devs do google play console e apple developers para gerenciar e publicar aplicativos.
+            I have experience hosting APIs on VPS, using Linux and Ubuntu. I also have experience in building applications for Android and iOS, as well as using the Google Play Console and Apple Developer platforms to manage and publish apps.
             </p>
           </C.RightSideArea>
 

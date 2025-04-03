@@ -160,12 +160,11 @@ const CentenoApp = () => {
           />
         </LeftSideVideoArea>
         <TextArea>
-          Desenvolvi um aplicativo inovador para um personal trainer, resolvendo problemas que ele tinha com esses alunos de consultoria,
-          que eram: que eram: as dúvidas recentes dos alunos sobre como os exercícios deveriam ser feitos, 
-          a dificuldade dos mesmos de obter as informações sobre o treino do dia, a demora para planejar os treinos dos alunos que era feita através de uma planilha no Excel. 
-          Agora, os alunos conseguem acessar as informações de treino rapidamente, 
-          esclarecer dúvidas diretamente e compartilhar seus progressos. Para o personal trainer, 
-          criei uma plataforma web que facilita o planejamento e a organização dos treinos, otimizando o tempo e aumentando a eficiência do trabalho. 
+        I developed an innovative app for a personal trainer, solving problems he had with his consulting clients, 
+        such as: recent doubts from students on how exercises should be performed, 
+        difficulty in accessing information about the daily workout, and the time-consuming process of planning workouts 
+        through an Excel spreadsheet. Now, students can quickly access workout information, clarify doubts directly, and share their progress. 
+        For the personal trainer, I created a web platform that simplifies workout planning and organization, optimizing time and increasing work efficiency. 
         </TextArea>
         <RighSideVideoArea>
           <video
@@ -178,11 +177,7 @@ const CentenoApp = () => {
         </RighSideVideoArea>
         </ContentContainer>
         <BottomAreaDiv>
-          <p>
-            Estou muito feliz em ver que o aplicativo já está sendo utilizado pelos alunos e que eles estão relatando inúmeros benefícios, 
-            como maior clareza na execução dos exercícios, acesso rápido às informações dos treinos e uma comunicação mais eficiente com o personal trainer.
-          </p>
-          <h2>Tecnologias utilizadas:</h2>
+          <h2>Technologies used:</h2>
           <p>React Native, React, Styled-components, Node, MongoDB, MongoDB Atlas, Google Play Console, Apple developer, VPS.</p>
           <AnchorLinkDivArea>
             <a href="https://centenopro.netlify.app/" target="_blank">Conheça a Plataforma</a>

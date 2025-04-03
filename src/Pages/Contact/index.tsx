@@ -29,12 +29,12 @@ const ContactMe = ({setSelectedPage}: Props) => {
         id='contatos'
     >
         <C.Container>
-            <C.H1 onViewportEnter={() => setSelectedPage(SelectedPage.Contatos)}>Contate-me</C.H1>
+            <C.H1 onViewportEnter={() => setSelectedPage(SelectedPage.Contatos)}>Contact me</C.H1>
             <C.H2>
-                Tire suas dúvidas ou me mande uma mensagem!
+              Ask me anything or send me a message!
             </C.H2>
             <C.Span>
-                devmarcoscenteno@gmail.com
+              devmarcoscenteno@gmail.com
             </C.Span>
             <C.form
                 target="_blank"
@@ -44,10 +44,10 @@ const ContactMe = ({setSelectedPage}: Props) => {
             >
                 <div className='div-flex'>
                     <div className='div-flex-column'>
-                        <label>Seu Nome:</label>
+                        <label>Name:</label>
                         <input
                             type='text'
-                            placeholder='Digite seu nome'
+                            placeholder=''
                             {...register("name", {
                                 required: true,
                                 maxLength: 100,
@@ -56,17 +56,17 @@ const ContactMe = ({setSelectedPage}: Props) => {
                         />
                         {errors.name && (
                             <C.Perrors>
-                                {errors.name.type === "required" && "Campo obrigatório*"}
-                                {errors.name.type === "maxLenght" && "Máximo de 100 caracteres*"}
-                                {errors.name.type === "pattern" && "Digite um nome válido*"}
+                                {errors.name.type === "required" && "Required*"}
+                                {errors.name.type === "maxLenght" && "Max 100 length*"}
+                                {errors.name.type === "pattern" && "Name invalid!*"}
                             </C.Perrors>
                         )}
                     </div>
                     <div className='div-flex-column'>
-                        <label>Seu Email:</label>
+                        <label>Email:</label>
                         <input
                             type="text"
-                            placeholder='Digite seu email'
+                            placeholder='@'
                             {...register("email", {
                                 required: true,
                                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
@@ -74,15 +74,15 @@ const ContactMe = ({setSelectedPage}: Props) => {
                         />
                         {errors.email && (
                             <C.Perrors>
-                                {errors.email.type === "required" && "Campo obrigatório*"}
-                                {errors.email.type === "pattern" && "Digite um email válido*"}
+                                {errors.email.type === "required" && "Required*"}
+                                {errors.email.type === "pattern" && "Email invalid!"}
                             </C.Perrors>
                         )}
                     </div>
                 </div>
-                <label>Sua mensagem:</label>
+                <label>Your Message:</label>
                 <textarea
-                    placeholder='Digite sua mensagem aqui'
+                    placeholder=''
                     {...register("mensagem", {
                         required: true,
                         maxLength: 1000,
@@ -90,12 +90,12 @@ const ContactMe = ({setSelectedPage}: Props) => {
                 />
                 {errors.mensagem && (
                     <C.Perrors>
-                        {errors.mensagem.type === "required" && "Campo obrigatório*"}
-                        {errors.mensagem.type === "maxLenght" && "Máximo 1000 caracteres*"}
+                        {errors.mensagem.type === "required" && "Required*"}
+                        {errors.mensagem.type === "maxLenght" && "Max 1000 length*"}
                     </C.Perrors>
                 )}
                 <button type="submit">
-                    Enviar
+                  Send
                 </button>
             </C.form>
 

@@ -71,7 +71,7 @@ const ProjectArea = ({
             </C.Pdesc>
             {isAboveMediumScreens &&
               <>
-              <h2>Tecnologias utilizadas:</h2>
+              <h2>Technologies used::</h2>
                 <C.Ptechnology>
                   {descTecnology}
                 </C.Ptechnology>

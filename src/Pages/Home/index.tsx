@@ -21,17 +21,16 @@ const Home = ({setSelectedPage}: Props) => {
           <C.LeftSideTexts>
             <C.TitleArea>
               <motion.h1 onViewportEnter={() => setSelectedPage(SelectedPage.Início)}>
-                Desenvolvedor
+                Full Stack
               </motion.h1>
-              <h1>Full Stack.</h1>
+              <h1>Developer.</h1>
               <p>
-                Apaixonado pelo mundo da tecnologia e desenvolvimento
-                web.
+                Passionate about the world of technology and developing solutions through software
               </p>
             </C.TitleArea>
             <C.BasicDescriptionsArea>
               <div className='left-side-text'>
-                Experiência em criar plataformas com múltiplos usuários pelo Brasil.
+                Experience in creating platforms with multiple users across Brazil.
               </div>
             </C.BasicDescriptionsArea>
           </C.LeftSideTexts>

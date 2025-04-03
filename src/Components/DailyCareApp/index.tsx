@@ -171,7 +171,7 @@ const DailyCareApp = () => {
 
   return (
     <Container>
-      <h1>Plataforma DailyCare</h1>
+      <h1>DailyCare Platform</h1>
       <ContentContainer>
         <LeftSideVideoArea>
           <video
@@ -183,12 +183,14 @@ const DailyCareApp = () => {
           />
         </LeftSideVideoArea>
         <TextArea>
-          DailyCare é uma plataforma que visa melhorar a comunicação e o acompanhamento clínico entre profissionais de saúde e seus pacientes. 
-          Projetada para oferecer suporte contínuo e personalizado, a plataforma facilita o monitoramento pós-consulta, 
-          aprimora o relacionamento profissional-paciente e promove uma gestão de saúde mais proativa e colaborativa.
-          As principais funcionalidades são as seguintes: 1. Cadastro de usuários: Todos os usuários podem se cadastrar para utilizar a plataforma; 
-          1.1 Profissionais de saúde cadastrados poderão iniciar um processo de acompanhamento clínico com seus pacientes cadastrados; 
-          2. Relatórios diários de bem-estar: 
+          DailyCare is a app aimed at improving communication and clinical monitoring between healthcare professionals and their patients. 
+          Designed to offer continuous and personalized support, the platform facilitates post-consultation monitoring, 
+          enhances the professional-patient relationship, and promotes a more proactive and collaborative approach to healthcare management.
+          The platform is already being used by selected healthcare professionals to test the first version. 
+          Several benefits have already been recorded from its use, including the following:
+          1 - Better monitoring of the patient's health progress;
+          2 - Use of the provided data to adjust treatment plans accurately and personalized;
+          3 - Empowering the patient: providing them with an active role in managing their health, promoting greater adherence to treatment.
         </TextArea>
         <RighSideVideoArea>
           <video
@@ -201,17 +203,10 @@ const DailyCareApp = () => {
         </RighSideVideoArea>
       </ContentContainer>
       <BottomAreaDiv>
-        <p>
-          Os pacientes podem fornecer um relatório diário de como está sua saúde clínica em relação ao processo de recuperação vigente, 
-          utilizando uma escala de 0 a 10, e informando sintomas positivos e negativos; 2.1 Os profissionais irão receber os relatórios clínicos
-          de seus pacientes cadastrados, junto com uma análise breve informando o estado atual da saúde do paciente. Os benefícios da plataforma:
-          1 - Monitoramento contínuo, 2 - Comunicação eficiente, 3 - Tomadas de decisões mais informadas sobre o plano de tratamento, 4 - Empoderamento
-          do paciente, 5 - Facilidade de acesso às informações;
-        </p>
-        <h2>Tecnologias utilizadas:</h2>
+        <h2>Technologies used:</h2>
         <p>React Native, React, Styled-components, Node, MongoDB, MongoDB Atlas, Google Play Console, Apple developer, VPS.</p>
         <AnchorLinkDivArea>
-          <a href="https://www.linkedin.com/company/dailycareapp/" target="_blank">Conheça a Plataforma</a>
+          <a href="https://www.linkedin.com/company/dailycareapp/" target="_blank">Know better</a>
         </AnchorLinkDivArea>
       </BottomAreaDiv>
     </Container>

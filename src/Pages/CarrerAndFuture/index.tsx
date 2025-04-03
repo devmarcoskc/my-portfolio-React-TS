@@ -38,18 +38,15 @@ function CarrerAndFuture({setSelectedPage}: Props) {
             <C.H1 
                 onViewportEnter={() => setSelectedPage(SelectedPage.CarreiraEFuturo)}
             >
-                Carreira e Futuro:
+              Career and Future:
             </C.H1>
             <C.Article>
-                Durante anos trabalhando no ramo, construi plataformas que são usadas por profissionais de saúde com seus pacientes diariamente.
-                Criei um aplicativo que gerou lucrou e ajudou a solucionar problemas que um personal trainer estava enfretando.
-                Tenho projetos paralelos,
-                que contém usuários pelo Brasil compartilhando suas mensagens.
-                Então, como decidi me tornar um desenvolvedor de software, faço tudo ao meu
-                alcance para me tornar cada vez melhor. No futuro, pretendo me tornar um tech leader e fazer mais projetos
-                que tenham impacto em minha comunidade. Então, vou sempre buscar 
-                novos desafios e melhorar minhas habilidades para que no meu futuro eu possa me tornar o 
-                melhor possível, como desenvolvedor e pessoa.
+            Throughout my career, I’ve built platforms used daily by healthcare professionals to manage their patients. 
+            I also developed an app that not only generated profit but also helped a personal trainer solve key challenges. 
+            Alongside these projects, I’ve worked on other initiatives, with users from all over Brazil sharing their messages.
+            Currently, as a Front-End Developer, I lead and contribute to the development of new features for web and mobile platforms. 
+            My focus is on delivering optimized, innovative user experiences while ensuring seamless collaboration within my team.
+            Looking forward, I aim to keep evolving my skills, embracing new challenges, and helping build cutting-edge solutions that make a real impact.
             </C.Article>
             </C.LeftSideText>
 

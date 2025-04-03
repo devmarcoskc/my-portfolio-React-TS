@@ -23,22 +23,22 @@ const Header = ({selectedPage, setSelectedPage}: Props) => {
          {isAboveMediumScreens &&
         <C.NavContainer>
             <Link 
-                page="Me Conheça"
+                page="About me"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
             />
             <Link
-                page="Carreira e Futuro"
+                page="Carrer and Future"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
             />
             <Link
-                page="Trabalhos"
+                page="Personal Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
             />
             <Link
-                page="Contatos"
+                page="Contact Me"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
             />
@@ -72,27 +72,27 @@ const Header = ({selectedPage, setSelectedPage}: Props) => {
             
             <C.NavAreaMob>
                 <Link 
-                    page="Início"
+                    page="Home"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />
                 <Link 
-                    page="Me Conheça"
+                    page="About Me"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />
                 <Link
-                    page="Carreira e Futuro"
+                    page="Carrer and Future"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />
                 <Link
-                    page="Trabalhos"
+                    page="Personal Projects"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />
                 <Link
-                    page="Contatos"
+                    page="Contact Me"
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                 />
